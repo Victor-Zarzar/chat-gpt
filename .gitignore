@@ -17,7 +17,7 @@ migrate_working_dir/
 .idea/
 
 # Ignore the file containing the API key
-lib/config/app_config.dart
+lib/core/app_config.dart
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
