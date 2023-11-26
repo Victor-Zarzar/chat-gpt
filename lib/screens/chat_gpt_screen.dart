@@ -2,7 +2,6 @@
 import 'package:chat_gpt/core/app_theme.dart';
 import 'package:chat_gpt/models/chat_model.dart';
 import 'package:chat_gpt/repositories/chat_gpt_repositories.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
 class ChatGPTScreen extends StatefulWidget {
@@ -14,7 +13,7 @@ class ChatGPTScreen extends StatefulWidget {
 
 class _ChatGPTScreenState extends State<ChatGPTScreen> {
   final _inputCtrl = TextEditingController();
-  final _repository = ChatGPTRepository(Dio());
+  final _repository = ChatGPTRepository();
   final _messages = <ChatModel>[];
   final _scrollCtrl = ScrollController();
 
