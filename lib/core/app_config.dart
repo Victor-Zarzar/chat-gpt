@@ -2,5 +2,5 @@ class AppConfig {
   AppConfig._();
 
   static String get getOpenAPIKey =>
-      "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";
+      "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";
 }
